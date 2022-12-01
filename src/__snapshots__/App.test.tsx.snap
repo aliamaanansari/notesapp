@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshort test 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand navbar-dark bg-dark fixed-top"
+  >
+    <div
+      className="container"
+    >
+      <span
+        className="navbar-brand"
+      >
+        React TypeScript BootStrap Components
+      </span>
+    </div>
+  </nav>,
+  <div
+    className="mt-5 container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <h2
+          className="mt-3"
+        >
+          Notes
+        </h2>
+        <div>
+          <div
+            className="mb-3"
+          >
+            <div
+              className="card"
+              style={
+                Object {
+                  "backgroundColor": "#dfdfdf",
+                }
+              }
+            >
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Meetings
+                </div>
+                <p
+                  className="card-text"
+                >
+                  Schedule meeting with ui ux team
+                </p>
+                <div
+                  className="text-muted card-subtitle h6"
+                >
+                  Thu Nov 24 2022 19:32:10 GMT+0530 (India Standard Time)
+                </div>
+                <button
+                  className="mt-3 btn btn-danger"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <h2>
+          Create Notes
+        </h2>
+        <form
+          className="mt-3 mb-3"
+          onSubmit={[Function]}
+        >
+          <div
+            className="mb-3"
+          >
+            <label
+              className="form-label"
+            >
+              Title
+            </label>
+            <input
+              className="form-control"
+              placeholder="Enter Title for th Note"
+              required={true}
+              type="text"
+            />
+          </div>
+          <div
+            className="mb-3"
+          >
+            <label
+              className="form-label"
+              htmlFor="formBasicText"
+            >
+              Text
+            </label>
+            <textarea
+              className="form-control"
+              id="formBasicText"
+              placeholder="Enter Your notes"
+              required={true}
+              rows={3}
+              type="text"
+            />
+          </div>
+          <div
+            className="mb-3"
+          >
+            <label
+              className="form-label"
+              htmlFor="colorInput"
+            >
+              Notes Color 
+            </label>
+            <input
+              className="form-control form-control-color"
+              defaultValue="#dfdfdf"
+              id="colorInput"
+              required={true}
+              title="Choose your color"
+              type="color"
+            />
+          </div>
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>,
+]
+`;
